@@ -1,5 +1,7 @@
 from turtle import *
 import winsound
+title('shape2')
+hideturtle()
 frequency = 500 
 duration = 1000  
 speed(0)
@@ -13,6 +15,4 @@ for i  in range(160):
     circle(150,i)
     fd(i)
     rt(90)
-    hideturtle()
-done()
 winsound.Beep(frequency, duration)
