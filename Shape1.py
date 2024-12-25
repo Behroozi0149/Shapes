@@ -1,11 +1,9 @@
 from turtle import *
 import winsound
-frequency1 = 10000
-duration1 = 1000
-frequency2 = 500 
-duration2 = 1000  
+frequency = 500 
+duration = 1000  
 speed(0)
-winsound.Beep(frequency1, duration1)
+winsound.Beep(frequency, duration)
 bg=str(input('Enter a Background color:'))
 cr=str(input('Enter a color:'))
 bgcolor(bg)
@@ -15,6 +13,6 @@ for i  in range(160):
     circle(150,i)
     fd(i)
     rt(90)
-hideturtle()
-winsound.Beep(frequency2, duration2)
+    hideturtle()
 done()
+winsound.Beep(frequency, duration)
