@@ -1,6 +1,6 @@
 from turtle import *
-hideturtle()
 title('shape2')
+hideturtle()
 setposition(-60,0)
 bgcolor('black')
 colors = ['orange','white']
