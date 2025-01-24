@@ -3,7 +3,7 @@ import math
 title('shape3')
 bgcolor('white')
 speed(100)
-color('red')
+color('darkred')
 pensize(5)
 def heart(n):
     x=15*math.sin(n)**3
